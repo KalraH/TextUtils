@@ -15,7 +15,7 @@ export default function TextForm(props)
     const handleLoClick = () => {
         let newText = text.toLowerCase();
         setText(newText);
-        props.showAlert("Converted to LowerCase !!", "warning");
+        props.showAlert("Copy to LowerCase !!", "warning");
     };
 
     const handleRemoveSpaces = () => {
