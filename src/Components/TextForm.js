@@ -59,7 +59,7 @@ export default function TextForm(props)
                 <button disabled={text.length === 0} className="btn btn-success mx-1 my-1" onClick={handleUpClick}>Convert to Uppercase</button>
                 <button disabled={text.length === 0} className="btn btn-success mx-1 my-1" onClick={handleLoClick}>Convert to Lowercase</button>
                 <button disabled={text.length === 0} className="btn btn-success mx-1 my-1" onClick={handleRemoveSpaces}>Remove Extra Spaces</button>
-                <button disabled={text.length === 0} className="btn btn-success mx-1 my-1" onClick={handleCopy}>Convert to ClipBoard</button>
+                <button disabled={text.length === 0} className="btn btn-success mx-1 my-1" onClick={handleCopy}>Copy to ClipBoard</button>
                 <button disabled={text.length === 0} className="btn btn-success mx-1 my-1" onClick={handleClearClick}>Clear Text</button>
             </div>
             
